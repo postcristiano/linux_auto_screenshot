@@ -10,5 +10,6 @@ while [ 1 ]; do
     xdotool mousemove $1 $2 click 1 &
     sleep 20
     import -window root ~/my_screenshots/image$(date +"%Y_%m_%d_%I_%M_%p").png
+    echo "Screenshot saved !"
 done
 
